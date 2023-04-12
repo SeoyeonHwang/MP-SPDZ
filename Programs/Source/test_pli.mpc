@@ -1,0 +1,124 @@
+from util import if_else
+
+def test(actual, expected):
+    actual = actual.reveal()
+    if expected >= 2 ** (actual.n - 1) and actual.n != 1:
+        expected -= 2 ** actual.n
+    print_ln('expected %s, got %s', expected, actual)
+
+def generate_continuous_list(n):
+    """Generate a list of integers from 0 to n-1"""
+    array = Array(n, sint)
+    for i in range(n):
+        array[i] = sint(i)
+    return array
+
+def generate_even_list(n):
+    """Generate a list of even integers from 0 to n-1, filling the rest with 0"""
+    array = Array(n, sint)
+    for i in range(n):
+        array[i] = if_else(i % 2 == 0, sint(i), sint(0))
+    return array
+
+def generate_odd_list(n):
+    """Generate a list of odd integers from 0 to n-1, filling the rest with 0"""
+    array = Array(n, sint)
+    for i in range(n):
+        array[i] = if_else(i % 2 == 1, sint(i), sint(0))
+    return array
+
+def list_intersection(a, b):
+    n = len(a)
+    intersection = Array(n, sint)
+    
+    # compare each element in a to elements in b
+    for i in range(n):
+        match = a[i] == b[i]
+        #print_ln("a[%s] = %s, b[%s] = %s, match = %s", i, a[i].reveal(), i, b[i].reveal(), match.reveal())
+        intersection[i] = if_else(match, a[i], sint(-1))
+        #print_ln("intersection[%s] = %s", i, intersection[i].reveal())	
+
+    # print out the intersection    
+    print_ln("intersection (elements that are not -1) = %s", intersection.reveal())
+
+def list_intersection_cardinality(a, b):
+    n = len(a)
+    cardinality = sint(0)
+
+    # compare each element in a to elements in b
+    for i in range(n):
+        match = a[i] == b[i]
+        cardinality += match
+    
+    # print out the total intersection size
+    print_ln("total intersection size = %s\n", cardinality.reveal())
+    
+def threshold_intersection(a, b, t): # currently not working
+    print_ln("threshold_intersection starts..")
+    n = len(a)
+    intersection = Array(n, sint)
+    cardinality = sint(0)
+    dummy = Array(n, sint).assign_all(sint(-1))
+
+    # compare each element in a to elements in b
+    for i in range(n):
+        match = a[i] == b[i]
+        intersection[i] = if_else(match, a[i], sint(-1))
+        cardinality += match
+    print_ln("intersection (elements that are not -1) = %s", intersection.reveal())
+
+    # print out the total intersection size
+    print_ln("total intersection size = %s\n", cardinality.reveal())
+
+    # print out the intersection only when the size is greater than t
+    # test comparison on sbitvec-s:
+    result = MemValue(sint(0))
+    result.write(cardinality > 3)
+    print_ln("result of comparison:%s", result.reveal())
+    test = if_else(cardinality > 3, sint(10), sint(20))
+    print_ln("test: %s", test.reveal())
+    if_else(cardinality > t,
+        lambda: print_ln("intersection (elements that are not -1) = %s", intersection.reveal()),
+        lambda: print_ln("intersection (elements that are not -1) = %s", dummy.reveal()))()
+
+
+def list_intersection_example(n, t):
+    """Naive private list intersection on two Arrays, followed by computing the size and average of the intersection"""
+    #a = Array(n, sint)
+    #b = Array(n, sint)
+
+    a = generate_continuous_list(n)
+    b = generate_even_list(n)
+    c = generate_odd_list(n)
+    print_ln("lists are ready:")
+    print_ln("a = %s", a.reveal())
+    print_ln("b = %s", b.reveal())
+    print_ln("c = %s\n", c.reveal())
+
+    print_ln("computing intersection of a and b")
+    list_intersection(a, b)
+    print_ln("cardinatlity of intersection of a and b")
+    list_intersection_cardinality(a, b)
+
+    print_ln("computing intersection of a and c")
+    list_intersection(a, c)
+    print_ln("cardinatlity of intersection of a and c")
+    list_intersection_cardinality(a, c)
+
+    print_ln("computing intersection of b and c")
+    list_intersection(b, c)
+    print_ln("cardinatlity of intersection of b and c")
+    list_intersection_cardinality(b, c)
+
+    #print_ln("print out the intersection only when the size is greater than %s", t)
+    #threshold_intersection(a, b, t)
+    #threshold_intersection(a, c, t)
+    #threshold_intersection(b, c, t)
+
+    test1 = sint(5)
+    test2 = sint(10)
+    result1 = test1 < test2
+    result2 = test1 > test2
+    print_ln("results: %s, %s", result1.reveal(), result2.reveal())
+
+list_intersection_example(10, 3)
