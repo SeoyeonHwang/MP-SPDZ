@@ -38,8 +38,7 @@ def list_intersection(a, b):
         intersection[i] = if_else(match, a[i], sint(-1))
         #print_ln("intersection[%s] = %s", i, intersection[i].reveal())	
 
-    # print out the intersection    
-    print_ln("intersection (elements that are not -1) = %s", intersection.reveal())
+    return intersection
 
 def list_intersection_cardinality(a, b):
     n = len(a)
@@ -50,8 +49,7 @@ def list_intersection_cardinality(a, b):
         match = a[i] == b[i]
         cardinality += match
     
-    # print out the total intersection size
-    print_ln("total intersection size = %s\n", cardinality.reveal())
+    return cardinality
     
 def threshold_intersection(a, b, t): # currently not working
     print_ln("threshold_intersection starts..")
@@ -59,27 +57,19 @@ def threshold_intersection(a, b, t): # currently not working
     intersection = Array(n, sint)
     cardinality = sint(0)
     dummy = Array(n, sint).assign_all(sint(-1))
+    result = Array(n, sint)
 
     # compare each element in a to elements in b
     for i in range(n):
         match = a[i] == b[i]
         intersection[i] = if_else(match, a[i], sint(-1))
         cardinality += match
-    print_ln("intersection (elements that are not -1) = %s", intersection.reveal())
-
-    # print out the total intersection size
-    print_ln("total intersection size = %s\n", cardinality.reveal())
-
+    
     # print out the intersection only when the size is greater than t
-    # test comparison on sbitvec-s:
-    result = MemValue(sint(0))
-    result.write(cardinality > 3)
-    print_ln("result of comparison:%s", result.reveal())
-    test = if_else(cardinality > 3, sint(10), sint(20))
-    print_ln("test: %s", test.reveal())
-    if_else(cardinality > t,
-        lambda: print_ln("intersection (elements that are not -1) = %s", intersection.reveal()),
-        lambda: print_ln("intersection (elements that are not -1) = %s", dummy.reveal()))()
+    condition = cardinality > t
+    for i in range(n):
+        result[i] = if_else(condition, intersection[i], dummy[i])
+    return result
 
 
 def list_intersection_example(n, t):
@@ -95,30 +85,30 @@ def list_intersection_example(n, t):
     print_ln("b = %s", b.reveal())
     print_ln("c = %s\n", c.reveal())
 
-    print_ln("computing intersection of a and b")
-    list_intersection(a, b)
-    print_ln("cardinatlity of intersection of a and b")
-    list_intersection_cardinality(a, b)
+    #computing intersection of a and b, followed by cardinality
+    intersection = list_intersection(a, b)
+    print_ln("intersection of a and b (elements that are not -1) = %s", intersection.reveal())
+    cardinality = list_intersection_cardinality(a, b)
+    print_ln("cardinality of intersection = %s\n", cardinality.reveal())
 
-    print_ln("computing intersection of a and c")
-    list_intersection(a, c)
-    print_ln("cardinatlity of intersection of a and c")
-    list_intersection_cardinality(a, c)
+    #computing intersection of a and c, followed by cardinality
+    intersection = list_intersection(a, c)
+    print_ln("intersection of a and c (elements that are not -1) = %s", intersection.reveal())
+    cardinality = list_intersection_cardinality(a, c)
+    print_ln("cardinality of intersection = %s\n", cardinality.reveal())
 
-    print_ln("computing intersection of b and c")
-    list_intersection(b, c)
-    print_ln("cardinatlity of intersection of b and c")
-    list_intersection_cardinality(b, c)
+    #computing intersection of b and c, followed by cardinality
+    intersection = list_intersection(b, c)
+    print_ln("intersection of b and c (elements that are not -1) = %s", intersection.reveal())
+    cardinality = list_intersection_cardinality(b, c)
+    print_ln("cardinality of intersection = %s\n", cardinality.reveal())
 
-    #print_ln("print out the intersection only when the size is greater than %s", t)
-    #threshold_intersection(a, b, t)
-    #threshold_intersection(a, c, t)
-    #threshold_intersection(b, c, t)
+    #print_ln("\nprint out the intersection only when the size is greater than %s", t)
+    result = threshold_intersection(a, b, t)
+    print_ln("tPLI(a,b) result: %s", result.reveal())
+    result = threshold_intersection(a, c, t)
+    print_ln("tPLI(a,c) result: %s", result.reveal())
+    result = threshold_intersection(b, c, t)
+    print_ln("tPLI(b,c) result: %s\n", result.reveal())
 
-    test1 = sint(5)
-    test2 = sint(10)
-    result1 = test1 < test2
-    result2 = test1 > test2
-    print_ln("results: %s, %s", result1.reveal(), result2.reveal())
-
-list_intersection_example(10, 3)
+list_intersection_example(30, 15)
