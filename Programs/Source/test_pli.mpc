@@ -30,11 +30,11 @@ def generate_odd_list(n):
 def list_intersection(a, b):
     n = len(a)
     intersection = Array(n, sint)
-    
+
     # compare each element in a to elements in b
     for i in range(n):
         match = a[i] == b[i]
-        #print_ln("a[%s] = %s, b[%s] = %s, match = %s", i, a[i].reveal(), i, b[i].reveal(), match.reveal())
+        #print_ln("a[%s] = %s, b[%s] = %s, match = %s", i, a[i].reveal(), i, b[i].reveal(), match)
         intersection[i] = if_else(match, a[i], sint(-1))
         #print_ln("intersection[%s] = %s", i, intersection[i].reveal())	
 
@@ -133,9 +133,51 @@ def list_intersection_example(n, t):
     cardinality = threshold_intersection_cardinality(b, c, t)
     print_ln("tPLI-CA(b,c) result: %s\n", cardinality.reveal())
 
-list_intersection_example(10, 3)
-list_intersection_example(10, 5)
-list_intersection_example(10, 9)
+#list_intersection_example(10, 3)
+#list_intersection_example(10, 5)
+#list_intersection_example(10, 9)
 
-list_intersection_example(30, 3)
-list_intersection_example(30, 20)
+#list_intersection_example(30, 3)
+#list_intersection_example(30, 20)
+
+
+n = int(program.args[1])
+alg = program.args[2] # 0: PLI, 1: PLI-CA, 2: tPLI, 3: tPLI-CA
+t = int(program.args[3])
+print("n = ", n, ", alg = ", alg)
+print_ln("n = %s", n)
+if alg == '0':
+    print_ln("PLI")
+elif alg == '1':
+    print_ln("PLI-CA")
+elif alg == '2':
+    print_ln("tPLI")
+elif alg == '3':
+    print_ln("tPLI-CA")
+else:
+    print_ln("invalid alg: %s", alg)
+    exit(1)
+
+a = sint.Array(n)
+b = sint.Array(n)
+
+a.assign_vector(sint.get_input_from(0, n))
+b.assign_vector(sint.get_input_from(1, n))
+
+#print_ln("a=%s", a.reveal())
+#print_ln("b=%s", b.reveal())
+
+if alg == '0':
+    i = list_intersection(a, b)
+    #print_ln("intersection list (elements that are not -1) = %s", i.reveal())
+elif alg == '1':
+    c = list_intersection_cardinality(a, b)
+    #print_ln("cardinality of intersection = %s\n", c.reveal())
+elif alg == '2':
+    result = threshold_intersection(a, b, t)
+    #print_ln("tPLI(a,b) result: %s", result.reveal())
+elif alg == '3':
+    cardinality = threshold_intersection_cardinality(a, b, t)
+    #print_ln("tPLI-CA(a,b) result: %s", cardinality.reveal())
+else:
+    print_ln("invalid alg: %s", alg)
