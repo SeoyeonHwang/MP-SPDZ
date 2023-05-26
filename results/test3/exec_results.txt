@@ -1,0 +1,293 @@
+n = 10
+PLI
+Sending directly 0.02016 MB in 2 rounds, taking 3.3e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.080051 seconds 
+Data sent = 0.02016 MB
+Global data sent = 0.02016 MB (all parties)
+n = 10
+PLI-CA
+n = 10
+PLI-CA
+n = 10
+PLI-CA
+Sending directly 0.0416 MB in 2 rounds, taking 5.7e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.111959 seconds 
+Data sent = 0.0416 MB
+Global data sent = 0.0416 MB (all parties)
+n = 10
+tPLI
+Sending directly 0.063264 MB in 2 rounds, taking 6.2e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.052623 seconds 
+Data sent = 0.063264 MB
+Global data sent = 0.063264 MB (all parties)
+n = 10
+tPLI-CA
+Sending directly 0.043808 MB in 2 rounds, taking 3.8e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.075128 seconds 
+Data sent = 0.043808 MB
+Global data sent = 0.043808 MB (all parties)
+
+n = 20
+PLI
+Sending directly 0.04032 MB in 2 rounds, taking 7.7e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.04803 seconds 
+Data sent = 0.04032 MB
+Global data sent = 0.04032 MB (all parties)
+n = 20
+PLI-CA
+libc++abi: terminating due to uncaught exception of type closed_connection
+n = 20
+PLI-CA
+n = 20
+PLI-CA
+Sending directly 0.0832 MB in 2 rounds, taking 0.000106 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.105015 seconds 
+Data sent = 0.0832 MB
+Global data sent = 0.0832 MB (all parties)
+n = 20
+tPLI
+Sending directly 0.125344 MB in 2 rounds, taking 8.5e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.05431 seconds 
+Data sent = 0.125344 MB
+Global data sent = 0.125344 MB (all parties)
+n = 20
+tPLI-CA
+n = 20
+tPLI-CA
+Sending directly 0.085408 MB in 2 rounds, taking 0.000105 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.054965 seconds 
+Data sent = 0.085408 MB
+Global data sent = 0.085408 MB (all parties)
+
+n = 30
+PLI
+Sending directly 0.06048 MB in 2 rounds, taking 6.2e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.090946 seconds 
+Data sent = 0.06048 MB
+Global data sent = 0.06048 MB (all parties)
+n = 30
+PLI-CA
+Sending directly 0.1248 MB in 2 rounds, taking 8.8e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.10139 seconds 
+Data sent = 0.1248 MB
+Global data sent = 0.1248 MB (all parties)
+n = 30
+tPLI
+Sending directly 0.187424 MB in 2 rounds, taking 0.000185 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.113066 seconds 
+Data sent = 0.187424 MB
+Global data sent = 0.187424 MB (all parties)
+n = 30
+tPLI-CA
+Sending directly 0.127008 MB in 2 rounds, taking 6.1e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.056825 seconds 
+Data sent = 0.127008 MB
+Global data sent = 0.127008 MB (all parties)
+
+n = 40
+PLI
+Sending directly 0.08064 MB in 2 rounds, taking 6.7e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.055216 seconds 
+Data sent = 0.08064 MB
+Global data sent = 0.08064 MB (all parties)
+n = 40
+PLI-CA
+Sending directly 0.1664 MB in 2 rounds, taking 0.00011 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.107467 seconds 
+Data sent = 0.1664 MB
+Global data sent = 0.1664 MB (all parties)
+n = 40
+tPLI
+Sending directly 0.249504 MB in 4 rounds, taking 0.000223 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.110115 seconds 
+Data sent = 0.249504 MB
+Global data sent = 0.249504 MB (all parties)
+n = 40
+tPLI-CA
+Sending directly 0.168608 MB in 2 rounds, taking 0.000135 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.034172 seconds 
+Data sent = 0.168608 MB
+Global data sent = 0.168608 MB (all parties)
+
+n = 50
+PLI
+Sending directly 0.1008 MB in 2 rounds, taking 5e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.099477 seconds 
+Data sent = 0.1008 MB
+Global data sent = 0.1008 MB (all parties)
+n = 50
+PLI-CA
+n = 50
+PLI-CA
+n = 50
+PLI-CA
+n = 50
+tPLI
+Sending directly 0.311584 MB in 4 rounds, taking 0.00021 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.067911 seconds 
+Data sent = 0.311584 MB
+Global data sent = 0.311584 MB (all parties)
+n = 50
+tPLI-CA
+n = 50
+tPLI-CA
+n = 50
+tPLI-CA
+
+n = 60
+PLI
+Sending directly 0.12096 MB in 2 rounds, taking 8.4e-05 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.034898 seconds 
+Data sent = 0.12096 MB
+Global data sent = 0.12096 MB (all parties)
+n = 60
+PLI-CA
+n = 60
+PLI-CA
+n = 60
+PLI-CA
+n = 60
+tPLI
+Sending directly 0.373664 MB in 4 rounds, taking 0.000217 seconds
+The following benchmarks are including preprocessing (offline phase).
+Time = 0.070105 seconds 
+Data sent = 0.373664 MB
+Global data sent = 0.373664 MB (all parties)
+n = 60
+tPLI-CA
+n = 60
+tPLI-CA
+n = 60
+tPLI-CA
+
+n = 70
+PLI
+n = 70
+PLI
+n = 70
+PLI
+n = 70
+PLI-CA
+n = 70
+PLI-CA
+n = 70
+PLI-CA
+n = 70
+tPLI
+n = 70
+tPLI
+n = 70
+tPLI
+n = 70
+tPLI-CA
+n = 70
+tPLI-CA
+n = 70
+tPLI-CA
+
+n = 80
+PLI
+n = 80
+PLI
+n = 80
+PLI
+n = 80
+PLI-CA
+n = 80
+PLI-CA
+n = 80
+PLI-CA
+n = 80
+tPLI
+n = 80
+tPLI
+n = 80
+tPLI
+n = 80
+tPLI-CA
+n = 80
+tPLI-CA
+n = 80
+tPLI-CA
+
+n = 90
+PLI
+n = 90
+PLI
+n = 90
+PLI
+n = 90
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 90
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 90
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 90
+tPLI
+n = 90
+tPLI
+n = 90
+tPLI
+n = 90
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 90
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 90
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+
+n = 100
+PLI
+n = 100
+PLI
+n = 100
+PLI
+n = 100
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 100
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 100
+PLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 100
+tPLI
+n = 100
+tPLI
+n = 100
+tPLI
+n = 100
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 100
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+n = 100
+tPLI-CA
+libc++abi: terminating due to uncaught exception of type std::runtime_error: Seoyeons-MacBook-Air.local : Non-blocking receiving error : Connection reset by peer
+

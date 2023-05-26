@@ -1,0 +1,492 @@
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  10 , alg =  0
+Writing to Programs/Schedules/test_pli-10-0-0.sch
+Writing to Programs/Bytecode/test_pli-10-0-0-0.bc
+Hash: b01f48c43d510308c59843c2f1502032597313031f0d4ade207ae3dee3348e09
+Program requires at most:
+         320 bit inputs from player 0
+         320 bit inputs from player 1
+         630 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  10 , alg =  1
+Writing to Programs/Schedules/test_pli-10-1-0.sch
+Writing to Programs/Bytecode/test_pli-10-1-0-0.bc
+Hash: 11a1b0469a1fc876ec15178f71d00b771cf4a9063ba03fb4abf2d574ee4afbde
+Program requires at most:
+         320 bit inputs from player 0
+         320 bit inputs from player 1
+        1300 bit triples
+          52 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  10 , alg =  2
+Writing to Programs/Schedules/test_pli-10-2-0.sch
+Writing to Programs/Bytecode/test_pli-10-2-0-0.bc
+Hash: 7f4b6f719526acc468a9d7898ad32802a8a11951aecd7828fdc627f8a625a9ae
+Program requires at most:
+         320 bit inputs from player 0
+         320 bit inputs from player 1
+        1977 bit triples
+          58 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  10 , alg =  3
+Writing to Programs/Schedules/test_pli-10-3-0.sch
+Writing to Programs/Bytecode/test_pli-10-3-0-0.bc
+Hash: ad2170cf50f5c652548c16d98219fbe9130c01445cc1c0b150ac919219f30082
+Program requires at most:
+         320 bit inputs from player 0
+         320 bit inputs from player 1
+        1369 bit triples
+          58 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  20 , alg =  0
+Writing to Programs/Schedules/test_pli-20-0-0.sch
+Writing to Programs/Bytecode/test_pli-20-0-0-0.bc
+Hash: 9878dd416678f4afac9d1b757704f279952a0867cbb158f99aa3623938a13200
+Program requires at most:
+         640 bit inputs from player 0
+         640 bit inputs from player 1
+        1260 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  20 , alg =  1
+Writing to Programs/Schedules/test_pli-20-1-0.sch
+Writing to Programs/Bytecode/test_pli-20-1-0-0.bc
+Hash: 7160e60f9da0a0a7be91a71a37d8d98e4198ef079aaed47e09ce5396b7128047
+Program requires at most:
+         640 bit inputs from player 0
+         640 bit inputs from player 1
+        2600 bit triples
+          62 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  20 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-20-2-0.sch
+Writing to Programs/Bytecode/test_pli-20-2-0-0.bc
+Hash: 0cae029748b13c3917e9cf7853249baeb5e83ab3961efd7f5aa3915c8669e2df
+Program requires at most:
+         640 bit inputs from player 0
+         640 bit inputs from player 1
+        3917 bit triples
+          68 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  20 , alg =  3
+Writing to Programs/Schedules/test_pli-20-3-0.sch
+Writing to Programs/Bytecode/test_pli-20-3-0-0.bc
+Hash: 29eb596f9f60abb5eb74bb5d21725ab8e4f171750bb1e5225d99571cf20611aa
+Program requires at most:
+         640 bit inputs from player 0
+         640 bit inputs from player 1
+        2669 bit triples
+          68 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  30 , alg =  0
+Writing to Programs/Schedules/test_pli-30-0-0.sch
+Writing to Programs/Bytecode/test_pli-30-0-0-0.bc
+Hash: 1869f1c582eaf06328b268ecc8a3cc0cb5dfcdaf8dd0aa4cc75e78abf0da5da6
+Program requires at most:
+         960 bit inputs from player 0
+         960 bit inputs from player 1
+        1890 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  30 , alg =  1
+Writing to Programs/Schedules/test_pli-30-1-0.sch
+Writing to Programs/Bytecode/test_pli-30-1-0-0.bc
+Hash: b46122f5dec2299fa52d141bbaee1cfd8566987730a928a59f9336de0a0c068a
+Program requires at most:
+         960 bit inputs from player 0
+         960 bit inputs from player 1
+        3900 bit triples
+          72 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  30 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-30-2-0.sch
+Writing to Programs/Bytecode/test_pli-30-2-0-0.bc
+Hash: e20482d6915de76c0e1afa1378d147a7ef6e1895ac682c3ff6e2f49601bac1b7
+Program requires at most:
+         960 bit inputs from player 0
+         960 bit inputs from player 1
+        5857 bit triples
+          78 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  30 , alg =  3
+Writing to Programs/Schedules/test_pli-30-3-0.sch
+Writing to Programs/Bytecode/test_pli-30-3-0-0.bc
+Hash: 9c5e41fb2b99a5ddfcbefa3cd5544648510a7b088dfadd5f0ed8247b088da08f
+Program requires at most:
+         960 bit inputs from player 0
+         960 bit inputs from player 1
+        3969 bit triples
+          78 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  40 , alg =  0
+Writing to Programs/Schedules/test_pli-40-0-0.sch
+Writing to Programs/Bytecode/test_pli-40-0-0-0.bc
+Hash: e8642aee8b7dc3109f9ed476ef8080cd0a137c3baf8c737a77885024e818626c
+Program requires at most:
+        1280 bit inputs from player 0
+        1280 bit inputs from player 1
+        2520 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  40 , alg =  1
+Writing to Programs/Schedules/test_pli-40-1-0.sch
+Writing to Programs/Bytecode/test_pli-40-1-0-0.bc
+Hash: d05026a7148121806d59d002662bc2f41f7f9e993c1be646e56523e325b3b43c
+Program requires at most:
+        1280 bit inputs from player 0
+        1280 bit inputs from player 1
+        5200 bit triples
+          82 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  40 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-40-2-0.sch
+Writing to Programs/Bytecode/test_pli-40-2-0-0.bc
+Hash: 6f4877dbf74d2372802fdd9d20496f99feb88644e1e06ae10ad06684195443ed
+Program requires at most:
+        1280 bit inputs from player 0
+        1280 bit inputs from player 1
+        7797 bit triples
+          88 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  40 , alg =  3
+Writing to Programs/Schedules/test_pli-40-3-0.sch
+Writing to Programs/Bytecode/test_pli-40-3-0-0.bc
+Hash: 52781f9b32a282737bfea048b672f5e90a9fcb4b2b57d334215fad05be0bb7c9
+Program requires at most:
+        1280 bit inputs from player 0
+        1280 bit inputs from player 1
+        5269 bit triples
+          88 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  50 , alg =  0
+Writing to Programs/Schedules/test_pli-50-0-0.sch
+Writing to Programs/Bytecode/test_pli-50-0-0-0.bc
+Hash: 3c95f5d24f8f66f3cf7c3f81cddbab23408cdc23792da9202ab6f77f9138e8e4
+Program requires at most:
+        1600 bit inputs from player 0
+        1600 bit inputs from player 1
+        3150 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  50 , alg =  1
+Writing to Programs/Schedules/test_pli-50-1-0.sch
+Writing to Programs/Bytecode/test_pli-50-1-0-0.bc
+Hash: ffa4df082309983d0d956914fc1b7966af2f5e69a3593b03da69f0aaa56aeb22
+Program requires at most:
+        1600 bit inputs from player 0
+        1600 bit inputs from player 1
+        6500 bit triples
+          92 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  50 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-50-2-0.sch
+Writing to Programs/Bytecode/test_pli-50-2-0-0.bc
+Hash: 0539e1f93090cd85a4ec1653fadc3c3285a7d4dd116625af755a0ef32c253ae9
+Program requires at most:
+        1600 bit inputs from player 0
+        1600 bit inputs from player 1
+        9737 bit triples
+          98 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  50 , alg =  3
+Writing to Programs/Schedules/test_pli-50-3-0.sch
+Writing to Programs/Bytecode/test_pli-50-3-0-0.bc
+Hash: b9b02c9c7e74a208cb9fb17ae972aae7bf260f80d760d03b825ac54b9576761e
+Program requires at most:
+        1600 bit inputs from player 0
+        1600 bit inputs from player 1
+        6569 bit triples
+          98 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  60 , alg =  0
+Writing to Programs/Schedules/test_pli-60-0-0.sch
+Writing to Programs/Bytecode/test_pli-60-0-0-0.bc
+Hash: 024d249990ff5d7490fb62a4890cc19f723ccf7600a8e53e60511eb1cc1fed32
+Program requires at most:
+        1920 bit inputs from player 0
+        1920 bit inputs from player 1
+        3780 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  60 , alg =  1
+Writing to Programs/Schedules/test_pli-60-1-0.sch
+Writing to Programs/Bytecode/test_pli-60-1-0-0.bc
+Hash: 4bb215588bc2d9aff11bea89c7e18b45bf05832b01796d10b6573d1fc20d4304
+Program requires at most:
+        1920 bit inputs from player 0
+        1920 bit inputs from player 1
+        7800 bit triples
+         102 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  60 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-60-2-0.sch
+Writing to Programs/Bytecode/test_pli-60-2-0-0.bc
+Hash: 46052adc49ae91f0101e40ccae15003e329acfffacbb0a0223d6fde3c00c709d
+Program requires at most:
+        1920 bit inputs from player 0
+        1920 bit inputs from player 1
+       11677 bit triples
+         108 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  60 , alg =  3
+Writing to Programs/Schedules/test_pli-60-3-0.sch
+Writing to Programs/Bytecode/test_pli-60-3-0-0.bc
+Hash: 95569646941bc06318f1543cf58927d568e0b5f4e1600d60c4ef605c83f3dfcb
+Program requires at most:
+        1920 bit inputs from player 0
+        1920 bit inputs from player 1
+        7869 bit triples
+         108 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  70 , alg =  0
+Writing to Programs/Schedules/test_pli-70-0-0.sch
+Writing to Programs/Bytecode/test_pli-70-0-0-0.bc
+Hash: d50272e4dd6dd7a8320616e8aa2a80a11265b38c9a690c7c41939ca6409335da
+Program requires at most:
+        2240 bit inputs from player 0
+        2240 bit inputs from player 1
+        4410 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  70 , alg =  1
+Writing to Programs/Schedules/test_pli-70-1-0.sch
+Writing to Programs/Bytecode/test_pli-70-1-0-0.bc
+Hash: 171492dfa81a835637c2054433e9503c42e52303278b351c3113c8c1c4f58c6a
+Program requires at most:
+        2240 bit inputs from player 0
+        2240 bit inputs from player 1
+        9100 bit triples
+         112 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  70 , alg =  2
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-70-2-0.sch
+Writing to Programs/Bytecode/test_pli-70-2-0-0.bc
+Hash: 01d951db942eae74776b6cdfb5eb9599c754dccdffb14ad18baeb9dbd98e1d4c
+Program requires at most:
+        2240 bit inputs from player 0
+        2240 bit inputs from player 1
+       13617 bit triples
+         118 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  70 , alg =  3
+Writing to Programs/Schedules/test_pli-70-3-0.sch
+Writing to Programs/Bytecode/test_pli-70-3-0-0.bc
+Hash: d9bb33be3b77452482bd7a46b7d96dd578871dbd07161052e7fdcf5c4b32e913
+Program requires at most:
+        2240 bit inputs from player 0
+        2240 bit inputs from player 1
+        9169 bit triples
+         118 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  80 , alg =  0
+Writing to Programs/Schedules/test_pli-80-0-0.sch
+Writing to Programs/Bytecode/test_pli-80-0-0-0.bc
+Hash: 23e63fda0f0265191c42b7c56019b0b6e48a4961a9dfeccb79f0abf3db1c60db
+Program requires at most:
+        2560 bit inputs from player 0
+        2560 bit inputs from player 1
+        5040 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  80 , alg =  1
+Writing to Programs/Schedules/test_pli-80-1-0.sch
+Writing to Programs/Bytecode/test_pli-80-1-0-0.bc
+Hash: fca9bcb2e050d76e25279d71189af0a2df19524ec4713df5514177e916ceff0f
+Program requires at most:
+        2560 bit inputs from player 0
+        2560 bit inputs from player 1
+       10400 bit triples
+         122 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  80 , alg =  2
+Compiled 100000 lines at Fri May 26 12:27:18 2023
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-80-2-0.sch
+Writing to Programs/Bytecode/test_pli-80-2-0-0.bc
+Hash: f7b61928bbcf92dc2a174dcaf35a040e5a2992f4df73e86860593fad1371299b
+Program requires at most:
+        2560 bit inputs from player 0
+        2560 bit inputs from player 1
+       15557 bit triples
+         128 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  80 , alg =  3
+Writing to Programs/Schedules/test_pli-80-3-0.sch
+Writing to Programs/Bytecode/test_pli-80-3-0-0.bc
+Hash: 2ed3fbf9650060d3d6a1345a9746778ce991fbd0aebb53eb9387bddd46da77f3
+Program requires at most:
+        2560 bit inputs from player 0
+        2560 bit inputs from player 1
+       10469 bit triples
+         128 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  90 , alg =  0
+Writing to Programs/Schedules/test_pli-90-0-0.sch
+Writing to Programs/Bytecode/test_pli-90-0-0-0.bc
+Hash: fb15aa87405cb430d7ff2f50ff1f2eaae08582b8f359cd203bde5640acbed0ef
+Program requires at most:
+        2880 bit inputs from player 0
+        2880 bit inputs from player 1
+        5670 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  90 , alg =  1
+Writing to Programs/Schedules/test_pli-90-1-0.sch
+Writing to Programs/Bytecode/test_pli-90-1-0-0.bc
+Hash: 0dbd9bf0ef84b77f03a2532b732185147a7957abadfe16f36d3297f16df2b19b
+Program requires at most:
+        2880 bit inputs from player 0
+        2880 bit inputs from player 1
+       11700 bit triples
+         132 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  90 , alg =  2
+Compiled 100000 lines at Fri May 26 12:28:59 2023
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-90-2-0.sch
+Writing to Programs/Bytecode/test_pli-90-2-0-0.bc
+Hash: ff4bc0b9240c97240e656b2bc370df35f3cb72ca7ed5fe40c3384dde0f83d888
+Program requires at most:
+        2880 bit inputs from player 0
+        2880 bit inputs from player 1
+       17497 bit triples
+         138 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  90 , alg =  3
+Writing to Programs/Schedules/test_pli-90-3-0.sch
+Writing to Programs/Bytecode/test_pli-90-3-0-0.bc
+Hash: fbd8bd1417969e3a6712049a9379135d806265700f0c905e854c3cf3fb328e51
+Program requires at most:
+        2880 bit inputs from player 0
+        2880 bit inputs from player 1
+       11769 bit triples
+         138 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  100 , alg =  0
+Writing to Programs/Schedules/test_pli-100-0-0.sch
+Writing to Programs/Bytecode/test_pli-100-0-0-0.bc
+Hash: 5ea490db47ddcab0890dacf8f10e5aa52d874563ab901e6b6ac2e23cd4c14616
+Program requires at most:
+        3200 bit inputs from player 0
+        3200 bit inputs from player 1
+        6300 bit triples
+           7 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  100 , alg =  1
+Writing to Programs/Schedules/test_pli-100-1-0.sch
+Writing to Programs/Bytecode/test_pli-100-1-0-0.bc
+Hash: 322143b3e30534cecac9c45054574d1067458a8a6137b6441590f3c5f25b6cdb
+Program requires at most:
+        3200 bit inputs from player 0
+        3200 bit inputs from player 1
+       13000 bit triples
+         142 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  100 , alg =  2
+Compiled 100000 lines at Fri May 26 12:30:59 2023
+WARNING: Order of memory instructions not preserved, errors possible
+Writing to Programs/Schedules/test_pli-100-2-0.sch
+Writing to Programs/Bytecode/test_pli-100-2-0-0.bc
+Hash: d72167837d13c890969ce95085c2042fb2c16bea220ec62e4a4afe0524aa45a1
+Program requires at most:
+        3200 bit inputs from player 0
+        3200 bit inputs from player 1
+       19437 bit triples
+         148 virtual machine rounds
+Default bit length: 32
+Default security parameter: 40
+Compiling file Programs/Source/test_pli.mpc
+n =  100 , alg =  3
+Writing to Programs/Schedules/test_pli-100-3-0.sch
+Writing to Programs/Bytecode/test_pli-100-3-0-0.bc
+Hash: f73beb04fab765ff69e08ab43a304ff0ea229f148ae0b616f350dbbbc9fdc1f8
+Program requires at most:
+        3200 bit inputs from player 0
+        3200 bit inputs from player 1
+       13069 bit triples
+         148 virtual machine rounds
