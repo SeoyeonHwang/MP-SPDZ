@@ -47,7 +47,7 @@ def list_intersection_cardinality(a, b):
     # compare each element in a to elements in b
     for i in range(n):
         match = a[i] == b[i]
-        cardinality += match
+        cardinality += if_else(match, sint(1), sint(0))
     
     return cardinality
     
@@ -78,7 +78,7 @@ def threshold_intersection_cardinality(a, b, t):
     # compare each element in a to elements in b
     for i in range(n):
         match = a[i] == b[i]
-        cardinality += match
+        cardinality += if_else(match, sint(1), sint(0))
     
     # return the cardinality only when the size is greater than t
     condition = cardinality > t
