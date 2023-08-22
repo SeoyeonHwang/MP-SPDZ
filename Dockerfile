@@ -88,7 +88,7 @@ RUN echo "ARCH = -march=${arch}" >> CONFIG.mine \
         && echo "SSL_DIR = '-DSSL_DIR=\"${ssl_dir}/\"'" >> CONFIG.mine
 
 # ssl keys
-ARG cryptoplayers=0
+ARG cryptoplayers=2
 ENV PLAYERS ${cryptoplayers}
 RUN ./Scripts/setup-ssl.sh ${cryptoplayers} ${ssl_dir}
 
